@@ -1,4 +1,4 @@
-#https://github.com/klanrali/lite-telethon  credits to @aaaDa
+#  credits to @KLANR
 
 from telethon import events
 import asyncio
