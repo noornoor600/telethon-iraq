@@ -1,5 +1,5 @@
-#klanr aloosh @aaaDa 
-#@tele_thon
+#klanr aloosh @KLANR
+#@IQTHON
 from userbot import CMD_HELP
 from telethon import events
 import asyncio
