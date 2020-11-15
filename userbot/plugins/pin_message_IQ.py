@@ -1,3 +1,4 @@
+# @KLANR @IQTHON
 """Pins the replied message
 Syntax: .cpin [LOUD]"""
 from telethon import events
