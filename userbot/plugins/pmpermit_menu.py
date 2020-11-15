@@ -1,23 +1,9 @@
-#   Copyright 2019 - 2020 DarkPrinc3
-
-#   Licensed under the Apache License, Version 2.0 (the "License");
-#   you may not use this file except in compliance with the License.
-#   You may obtain a copy of the License at
-
-#       http://www.apache.org/licenses/LICENSE-2.0
-
-#   Unless required by applicable law or agreed to in writing, software
-#   distributed under the License is distributed on an "AS IS" BASIS,
-#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#   See the License for the specific language governing permissions and
-#   limitations under the License.
-
-# if you change credits, you get anal cancer and get murdered by russians in 3 days.
+#  klanr ali @klanr and ch @iqthon
 """
 Support chatbox for pmpermit.
 Used by incoming messages with trigger as /start
 Will not work for already approved people.
-Credits: written by ༺αиυвιѕ༻ {@A_Dark_Princ3}
+Credits: KLANR ALI {@KLANR}
 """
 import asyncio
 import io 
@@ -41,27 +27,21 @@ async def _(event):
         chat = await event.get_chat()
         if event.fwd_from:
             return
-        if event.is_private:
-         Nudas = ("__Please state your gender.__\n"
-                  "`1`. Female Homo-Sapien\n"
-                  "`2`. Male Homo-Sapien\n"
-                  "`3`. Other\n")
-         PM = ("`Hello. You are accessing the availabe menu of my peru master,`"
-               f"{DEFAULTUSER}.\n"
-               "__Let's make this smooth and let me know why you are here.__\n"
-               "**Choose one of the following reasons why you are here:**\n\n"
-               "`1`. To chat with my master\n"
-               "`2`. To spam my master's inbox.\n"
-               "`3`. To send nudes.\n"
-               "`4`. To enquire something\n"
-               "`5`. To request something\n")
-         ONE = ("__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He is a busy man, unlike you probably.__\n\n"
-                "**⚠️ You will be blocked and reported if you spam nibba. ⚠️**\n\n"
-                "__Use__ `/start` __to go back to the main menu.__")
-         TWO = (" `███████▄▄███████████▄  \n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓█░░░░░░░░░░░░░░█\n▓▓▓▓▓▓███░░░░░░░░░░░░█\n██████▀▀▀█░░░░██████▀  \n░░░░░░░░░█░░░░█  \n░░░░░░░░░░█░░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░█░░█  \n░░░░░░░░░░░░▀▀ `\n\n**So uncool, this is not your home. Go bother someone else. You have been blocked and reported until further notice.**")
-         FOUR = ("__Okay. My master has not seen your message yet.He usually responds to people,though idk about retarted ones.__\n __He'll respond when he comes back, if he wants to.There's already a lot of pending messages😶__\n **Please do not spam unless you wish to be blocked and reported.**")
-         FIVE = ("`Okay. please have the basic manners as to not bother my master too much. If he wishes to help you, he will respond to you soon.`\n**Do not ask repeatdly else you will be blocked and reported.**")
-         LWARN = ("**This is your last warning. DO NOT send another message else you will be blocked and reported. Keep patience. My master will respond you ASAP.**\n__Use__ `/start` __to go back to the main menu.__")
+        PM = (
+            "⌔︙🕷🇮🇶Welcome to Source Iraq"
+            f"{DEFAULTUSER}.\n"
+            "⌔︙🕷🇮🇶Source Iraq Channel @IQTHON\n"
+            "⌔︙🕷🇮🇶Principal developer: @klanr\n"
+            "⌔︙🕷🇮🇶Never repeat here\n"
+            "⌔︙🕷🇮🇶Email the person now\n"
+            "⌔︙🕷🇮🇶BOT commands Iraq Thon @iraqthonbot\n"
+            "⌔︙🕷🇮🇶In case here is a problem, send .restart\n"
+        )
+         ONE = ("حسنا ارسل رسالتك كامله عند الفراغ ارد عليك")
+         TWO = ("@IQTHON")
+         THREE = ("@IQTHON")
+         FOUR = ("@iraqthonbot")
+         LWARN = ("https://www.youtube.com/watch?v=HKLtmbiFi_Q&t=3s")
      
         async with borg.conversation(chat) as conv:
          await borg.send_message(chat, PM)
