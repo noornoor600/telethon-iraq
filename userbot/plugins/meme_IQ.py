@@ -1,7 +1,7 @@
 """
-Memes Plugin for Userbot
+Memes Plugin for @KLANR
 usage = .meme someCharacter //default delay will be 3
-By : - @Zero_cool7870
+By : - @IQTHON
 
 """
 from telethon import events
