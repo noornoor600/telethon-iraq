@@ -1,3 +1,4 @@
+#KLANR #IQTHON
 """Emoji
 Available Commands:
 .emoji shrug
