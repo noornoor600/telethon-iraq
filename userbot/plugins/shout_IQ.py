@@ -1,6 +1,6 @@
 """Shouts a message in MEME way
 usage: .shout message
-originaly from : @corsicanu_bot
+originaly from : @IQTHON
 """
 
 import sys
