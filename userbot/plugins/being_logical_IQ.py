@@ -1,8 +1,8 @@
 """
 Say something interesting...
 Syntax: .belo
-    by @Deonnn
-Quotes credits: Being logical Channel
+    by @KLANR
+Quotes credits: @IQTHON Channel
 """
 
 from telethon import events
