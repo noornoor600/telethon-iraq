@@ -1,4 +1,4 @@
-# Code from pro sar Spechide's fork of Uniborg.
+# KLANR ALI @IQTHON
 """Rename Telegram Files
 Syntax:
 .rnupload file.name"""
