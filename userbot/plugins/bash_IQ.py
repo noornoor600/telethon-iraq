@@ -1,3 +1,4 @@
+#IQTHON #KLANR
 from telethon import events
 import subprocess
 from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
