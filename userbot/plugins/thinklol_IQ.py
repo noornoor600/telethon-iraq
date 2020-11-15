@@ -1,4 +1,4 @@
-# (c) @UniBorg
+# (c) @IQTHON
 
 from telethon import events
 import asyncio
