@@ -1,5 +1,3 @@
-
-
 """Cmd= `.zombie`
 Usage: Searches for deleted accounts in a groups and channels.
 Use .zombies clean to remove deleted accounts from the groups and channels.
