@@ -11,8 +11,7 @@ KNOWN_RE_BOTS = re.compile(
     flags=re.IGNORECASE
 )
 
-# Heavily based on
-# https://github.com/SijmenSchoon/regexbot/blob/master/regexbot.py
+# KLANR
 
 last_msgs = defaultdict(lambda: deque(maxlen=10))
 
