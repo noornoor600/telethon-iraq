@@ -1,4 +1,4 @@
-""".admin Plugin for @UniBorg"""
+""".admin Plugin for @IQTHON"""
 import asyncio
 from telethon import events
 from telethon.tl.types import ChannelParticipantsAdmins
