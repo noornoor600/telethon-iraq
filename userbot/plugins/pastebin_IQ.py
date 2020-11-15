@@ -1,3 +1,4 @@
+#KLANR @IQTHON
 """IX.IO pastebin like site
 Syntax: .paste"""
 from telethon import events
@@ -11,7 +12,7 @@ from userbot.utils import admin_cmd
 def progress(current, total):
     logger.info("Downloaded {} of {}\nCompleted {}".format(current, total, (current / total) * 100))
 
-
+#KLANR @IQTHON
 @borg.on(admin_cmd("paste ?(.*)"))
 async def _(event):
     if event.fwd_from:
