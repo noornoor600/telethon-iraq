@@ -1,3 +1,4 @@
+#KLANR @IQTHON
 """Send Chat Actions
 Syntax: .sca <option>
 Options: typing, contact, game, location, voice, round, video, photo, document, cancel"""
