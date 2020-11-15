@@ -1,14 +1,6 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.b (the "License");
-# you may not use this file except in compliance with the License.
-#
-
 from asyncio import wait
 
 from telethon import events
-
-
 
 @borg.on(events.NewMessage(pattern=r"\.spam", outgoing=True))
 async def spammer(e):
