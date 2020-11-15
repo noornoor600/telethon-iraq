@@ -1,4 +1,4 @@
-#credits: @r4v4n4
+#credits: @IQTHON
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
