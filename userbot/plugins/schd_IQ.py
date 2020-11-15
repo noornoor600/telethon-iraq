@@ -1,4 +1,4 @@
-"""Schedule Plugin for @UniBorg
+"""Schedule Plugin for @IQTHON
 Syntax: .schd <time_in_seconds> ;=; <message to send>"""
 from telethon import events
 import asyncio
