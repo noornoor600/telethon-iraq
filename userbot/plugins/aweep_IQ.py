@@ -1,3 +1,4 @@
+#KLANR CH @IQTHON
 import asyncio, subprocess
 import time, re, io
 from userbot import bot, BOTLOG, BOTLOG_CHATID, CMD_HELP
