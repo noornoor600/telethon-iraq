@@ -1,7 +1,4 @@
-# The entire code given below is verbatim copied from
-# https://github.com/cyberboysumanjay/Gdrivedownloader/blob/master/gdrive_upload.py
-# there might be some changes made to suit the needs for this repository
-# Licensed under MIT License
+# CH @IQTHON @KLANR
 
 import asyncio
 import os
