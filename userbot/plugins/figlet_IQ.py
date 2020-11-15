@@ -1,3 +1,4 @@
+#KLANR @IQTHON
 import pyfiglet
 
 @command(pattern="^.figlet ?(.*)", outgoing=True)
