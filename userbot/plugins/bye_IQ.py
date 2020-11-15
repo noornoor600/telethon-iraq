@@ -1,5 +1,5 @@
-# For @UniBorg
-# Courtesy @yasirsiddiqui
+# For @IQTHON
+# Courtesy @KLANR
 
 """
 .bye
