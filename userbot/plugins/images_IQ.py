@@ -1,8 +1,8 @@
-# Adapted from OpenUserBot for Uniborg, X-tra-Telegram
+# Adapted from OpenUserBot for KLANR, @IQTHON
 
 """Download & Upload Images on Telegram\n
 Syntax: `.img <Name>` or `.img (replied message)`
-\n Upgraded and Google Image Error Fixed by @NeoMatrix90 aka @kirito6969
+\n Upgraded and Google Image Error Fixed by @KLANR aka @IQTHON
 """
 
 from userbot.googol_images import googleimagesdownload
@@ -42,7 +42,7 @@ async def img_sampler(event):
         "no_directory": "no_directory"
     }
 
-    # passing the arguments to the function
+   # Adapted from OpenUserBot for KLANR, @IQTHON
     paths = response.download(arguments)
     lst = paths[0][query]
     await event.client.send_file(await event.client.get_input_entity(event.chat_id), lst)
