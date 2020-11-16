@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# Adapted from OpenUserBot for KLANR, @IQTHON
 
 from telethon import events
 import random
