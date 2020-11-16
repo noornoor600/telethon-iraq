@@ -1,7 +1,7 @@
 {
-  "name": "X-TELETHON ",
-  "description": "Userbot created by a SNAPDRAGON and custom fork by ANUBIS\n\n join https://t.me/Xtelethon for any problems or support",
-  "logo": "https://telegra.ph/file/e502a5d35eadd29b3ca73.jpg",
+  "name": "Telethon For Iraq",
+  "description": "Welcome to Source Telethon for Iraq, follow the channel @IQTHON, and also the developer channel @RXXRX",
+  "logo": "https://telegra.ph/file/01db49b24a1dbae76c825.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,12 +9,12 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Dark-Princ3/X-tra-Telegram/",
+  "repository": "https://github.com/klanrali/telethon-iraq/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "ضع هنا كود تيرمكس ايضا",
       "value": "ANYTHING"
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
@@ -23,49 +23,19 @@
       "required": false
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "ضع هنا الايبي ايدي",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "ضع هنا الايبي هاش",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally",
+      "description": "ضع هنا كود تيرمكس ايضا",
       "value": ""
     },
-    "MAX_FLOOD_IN_P_M_s": {
-      "description": "Maximum number of messages a person can send in pm before getting blocked. Value must be an integer. 3 by default.",
-      "value": "3",
-      "required": false
-    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
-      "value": "",
-      "required": false
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
-      "value": "",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: Total-Noob-69/X-Tra-Telegram, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
-    },
     "TG_BOT_TOKEN_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": "ضع هنا توكن بوتك",
       "value": "",
       "required": false
     },
@@ -80,18 +50,17 @@
       "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
+      "description": "ضع هنا معرف بوتك بدون @",
       "value": "",
       "required": false
     },
-    "DOWNLOAD_PFP_URL_CLOCK": {
-      "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
-      "value": "",
-      "required": false
+    "ALIVE_NAME": {
+      "description": "ضع معرفك",
+      "value": ""
     },
     "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "description": "الموقع",
+      "value": "Asia/Baghdad",
       "required": false
     }
   },
