@@ -82,9 +82,9 @@ async def on_snip_save(event):
                 snip['hash'] = media.access_hash
                 snip['fr'] = media.file_reference
         add_filter(event.chat_id, name, snip['text'], snip['type'], snip.get('id'), snip.get('hash'), snip.get('fr'))
-        await event.edit(f"filter {name} saved successfully. Get it with {name}")
+        await event.edit(f"- 𖢞 filter {name} saved successfully. Get it with {name}")
     else:
-        await event.edit("Reply to a message with `savefilter keyword` to save the filter")
+        await event.edit("- 𖢞 Reply to a message with `savefilter keyword` to save the filter")
 
 
 @command(pattern="^.listfilters$")
@@ -116,10 +116,10 @@ async def on_snip_list(event):
 async def on_snip_delete(event):
     name = event.pattern_match.group(1)
     remove_filter(event.chat_id, name)
-    await event.edit(f"filter {name} deleted successfully")
+    await event.edit(f"- 𖢞 filter {name} deleted successfully")
 
 
 @command(pattern="^.clearallfilters$")
 async def on_all_snip_delete(event):
     remove_all_filters(event.chat_id)
-    await event.edit(f"filters **in current chat** deleted successfully")
+    await event.edit(f"- 𖢞 filters **in current chat** deleted successfully")
