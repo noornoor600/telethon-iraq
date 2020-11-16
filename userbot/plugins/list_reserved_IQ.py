@@ -1,5 +1,5 @@
-# For @UniBorg
-# (c) Shrimadhav U K
+# For @IQTHON
+# (c) KLANR I Q 
 
 from telethon import events, functions, types
 import asyncio
