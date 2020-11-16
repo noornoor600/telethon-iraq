@@ -1,9 +1,9 @@
 """
 Syntax : .gps <location name>
-credits :@mrconfused
+credits :@IQTHON
 """
 
-#help from @sunda005 and @SpEcHIDe
+#help from @KLANR
 # don't edit credits 
 
 from geopy.geocoders import Nominatim
