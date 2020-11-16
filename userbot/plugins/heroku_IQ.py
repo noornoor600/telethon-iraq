@@ -1,5 +1,4 @@
-# Copyright (C) 2020 Adek Maulana.
-# All rights reserved.
+# @IQTHON - @KLANR
 """
    Heroku manager for your userbot
 """
@@ -92,7 +91,7 @@ async def variable(var):
             del heroku_var[variable]
         else:
             return await var.edit(f"**{variable}**  `is not exists`")
-
+# @IQTHON - @KLANR
 
 @register(outgoing=True, pattern=r"^\.usage(?: |$)")
 async def dyno_usage(dyno):
