@@ -1,16 +1,4 @@
-#   Copyright 2019 - 2020 DarkPrinc3
-
-#   Licensed under the Apache License, Version 2.0 (the "License");
-#   you may not use this file except in compliance with the License.
-#   You may obtain a copy of the License at
-
-#       http://www.apache.org/licenses/LICENSE-2.0
-
-#   Unless required by applicable law or agreed to in writing, software
-#   distributed under the License is distributed on an "AS IS" BASIS,
-#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-#   See the License for the specific language governing permissions and
-#   limitations under the License.
+#   klanr @iqthon
 
 from userbot import bot
 from telethon import events
@@ -42,10 +30,10 @@ async def install(event):
                 path1 = Path(downloaded_file_name)
                 shortname = path1.stem
                 load_module(shortname.replace(".py", ""))
-                await event.edit("Installed Plugin `{}`".format(os.path.basename(downloaded_file_name)))
+                await event.edit("Installed Plugin @IQTHON `{}`".format(os.path.basename(downloaded_file_name)))
             else:
                 os.remove(downloaded_file_name)
-                await event.edit("Errors! This plugin is already installed/pre-installed.")
+                await event.edit("Errors! This plugin is already installed/pre-installed @IQTHON.")
         except Exception as e:  # pylint:disable=C0103,W0703
             await event.edit(str(e))
             os.remove(downloaded_file_name)
