@@ -1,28 +1,36 @@
-# x-TeleThon| @xtelethon - @FFjRR
-# FORK AT YOUR OWN RISK
-# Documentation/Guide, visit [How2Techy](https://how2techy.com/x-tra-userbot-plugin-guide-part1/)
-# Installing
-Join https://t.me/xtelethon for updates and tuts
-### The Easy Way
+# Telethon - FOR IRAQ
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<p align="center">
 
+<img src="https://telegra.ph/file/7e20b797f94ca19fa8125.jpg" alt="Telethon">
 
-### UniBorg Configuration
+Best User Bot To Manage Your Telegram Account 
+## © By Team #TeleThon™
 
-The UniBorg Config is situated in `userbot/uniborgConfig.py`.
+### For any query or want to know how it works join Group And Channel 
 
-**Heroku Configuration**
-Simply just leave the Config as it is.
+<a href="https://t.me/IQTHON"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 
-**Local Configuration**
-Check [Line 111](https://github.com/Total-Noob-69/X-tra-Telegram/blob/master/userbot/uniborgConfig.py#L111) and start adding your vars there.
-Fortunately there are no Mandatory vars for the UniBorg Support Config.
+<a href="https://t.me/klanr"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
-## Mandatory Vars
+<a href="https://youtu.be/HKLtmbiFi_Q"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
-- Only two of the environment variables are mandatory.
-- This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
-    - `APP_ID`:   You can get this value from https://my.telegram.org
-    - `API_HASH`:   You can get this value from https://my.telegram.org
-- The userbot will not work without setting the mandatory vars.
+### Host #TeleThon™ In Heroku
+
+ 
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/klanrali/TeleThon-IRAQ )
+
+Termix codes for installation through Termex in Google Play for installing Source telethon IRAQ :
+
+`sh
+
+git clone https://github.com/klanrali/TeleThon-IRAQ
+
+cd iraqthon
+
+virtualenv -p /usr/bin/python3 venv
+
+. ./venv/bin/activate
+
+pip install -r requirements.txt
