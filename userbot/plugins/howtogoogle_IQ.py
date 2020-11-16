@@ -1,8 +1,8 @@
-#Modded from dagd.py
+#FROM @KLANR
 """
 Animate How To Google
 Command .ggl Search Query
-By @loxxi
+By @IQTHON
 """
 
 from telethon import events
