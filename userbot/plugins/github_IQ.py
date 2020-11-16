@@ -1,3 +1,4 @@
+#KLANR @IQTHON
 """Get information about an user on GitHub
 Syntax: .github USERNAME"""
 from telethon import events
@@ -26,6 +27,7 @@ async def _(event):
         await borg.send_file(
             event.chat_id,
             caption="""Name: [{}]({})
+CH : @IQTHON
 Type: {}
 Company: {}
 Blog: {}
