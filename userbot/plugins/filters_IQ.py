@@ -28,7 +28,7 @@ async def on_snip(event):
     if event.chat_id in last_triggered_filters:
         if name in last_triggered_filters[event.chat_id]:
             # avoid userbot spam
-            # "I demand rights for us bots, we are equal to you humans." -Henri Koivuneva (t.me/UserbotTesting/2698)
+            
             return False
     snips = get_all_filters(event.chat_id)
     if snips:
@@ -82,20 +82,20 @@ async def on_snip_save(event):
                 snip['hash'] = media.access_hash
                 snip['fr'] = media.file_reference
         add_filter(event.chat_id, name, snip['text'], snip['type'], snip.get('id'), snip.get('hash'), snip.get('fr'))
-        await event.edit(f"- 𖢞 filter {name} saved successfully. Get it with {name}")
+        await event.edit(f"- 𖢞 filter {name} saved successfully - @IQTHON . Get it with {name}")
     else:
-        await event.edit("- 𖢞 Reply to a message with `savefilter keyword` to save the filter")
+        await event.edit("- 𖢞 Reply to a message with `savefilter keyword` to save the filter - @IQTHON")
 
 
 @command(pattern="^.listfilters$")
 async def on_snip_list(event):
     all_snips = get_all_filters(event.chat_id)
-    OUT_STR = "Available Filters in the Current Chat:\n"
+    OUT_STR = "- 𖢞 Available Filters in the Current Chat - @IQTHON :\n"
     if len(all_snips) > 0:
         for a_snip in all_snips:
             OUT_STR += f"👉 {a_snip.keyword} \n"
     else:
-        OUT_STR = "No Filters. Start Saving using `.savefilter`"
+        OUT_STR = "- 𖢞 No Filters. Start Saving using `.savefilter`- @IQTHON"
     if len(OUT_STR) > 4096:
         with io.BytesIO(str.encode(OUT_STR)) as out_file:
             out_file.name = "filters.text"
@@ -116,10 +116,10 @@ async def on_snip_list(event):
 async def on_snip_delete(event):
     name = event.pattern_match.group(1)
     remove_filter(event.chat_id, name)
-    await event.edit(f"- 𖢞 filter {name} deleted successfully")
+    await event.edit(f"- 𖢞 filter {name} deleted successfully - @IQTHON")
 
 
 @command(pattern="^.clearallfilters$")
 async def on_all_snip_delete(event):
     remove_all_filters(event.chat_id)
-    await event.edit(f"- 𖢞 filters **in current chat** deleted successfully")
+    await event.edit(f"- 𖢞 filters **in current chat** deleted successfully - @IQTHON")
