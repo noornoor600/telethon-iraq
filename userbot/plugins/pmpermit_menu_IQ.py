@@ -23,21 +23,21 @@ async def _(event):
             return
         if event.is_private:
          Nudas = ("ذكر الجنسيه.__\n"
-                  "`1`. ⌔︙🕷🇮🇶Source Iraq Channel @IQTHON\n"
-                  "`2`. ⌔︙🕷🇮🇶Principal developer: @klanr\n"
-                  "`3`. ⌔︙🕷🇮🇶BOT commands Iraq Thon @iraqthonbot\n")
-         PM = ("⌔︙🕷🇮🇶Welcome to Source Iraq"
+                  "`1`. -  𖢞Source Iraq Channel @IQTHON\n"
+                  "`2`. -  𖢞Principal developer: @klanr\n"
+                  "`3`. -  𖢞BOT commands Iraq Thon @iraqthonbot\n")
+         PM = ("-  𖢞Welcome to Source Iraq"
             f"{DEFAULTUSER}.\n"
-            "⌔︙🕷🇮🇶Source Iraq Channel @IQTHON\n"
-            "⌔︙🕷🇮🇶Principal developer: @klanr\n"
-            "⌔︙🕷🇮🇶Never repeat here\n"
-            "⌔︙🕷🇮🇶Email the person now\n"
-            "⌔︙🕷🇮🇶BOT commands Iraq Thon @iraqthonbot\n"
-            "⌔︙🕷🇮🇶In case here is a problem, send .restart\n")
+            "-  𖢞Source Iraq Channel @IQTHON\n"
+            "-  𖢞Principal developer: @klanr\n"
+            "-  𖢞Never repeat here\n"
+            "-  𖢞Email the person now\n"
+            "-  𖢞BOT commands Iraq Thon @iraqthonbot\n"
+            "-  𖢞In case here is a problem, send .restart\n")
          ONE = ("حسنا ارسل رسالتك كامله عند الفراغ ارد عليك")
          TWO = ("@IQTHON")
          THREE = ("@IQTHON")
-         FOUR = ("@iraqthonbot")
+         FOUR = ("@IQTHON")
          LWARN = ("@IQTHON")
      
         async with borg.conversation(chat) as conv:
