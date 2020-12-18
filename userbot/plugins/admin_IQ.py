@@ -129,7 +129,7 @@ async def promote(promt):
                                  delete_messages=True,
                                  pin_messages=True)
 
-    await promt.edit("`Promoting...`")
+    await promt.edit("Promoting.. - @IQTHON")
     user, rank = await get_user_from_event(promt)
     if not rank:
         rank = "admeme"  # Just in case.
@@ -142,7 +142,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully! Now gib Party`")
+        await promt.edit("`Promoted Successfully! - @IQTHON")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -172,7 +172,7 @@ async def demote(dmod):
         return
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Demoting...`")
+    await dmod.edit("Demoting... - @IQTHON")
     rank = "admeme"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
@@ -198,7 +198,7 @@ async def demote(dmod):
     except BadRequestError:
         await dmod.edit(NO_PERM)
         return
-    await dmod.edit("`Demoted this retard Successfully!`")
+    await dmod.edit("Demoted this retard -  𖢞Successfully! - @IQTHON")
 
     # Announce to the logging group if we have demoted successfully
     if BOTLOG:
@@ -236,7 +236,7 @@ async def _(event):
     except (Exception) as exc:
         await event.edit(str(exc))
     else:
-        await event.edit(f"{input_cmd}ned Successfully!")
+        await event.edit(f"{input_cmd}ned -  𖢞Successfully! - IQTHON")
 
 
 @borg.on(admin_cmd(pattern="pgs ?(.*)", allow_sudo=True))
@@ -266,7 +266,7 @@ async def _(event):
             msgs = []
             await event.delete()
         else:
-            await event.edit("**PURGE** Failed!")
+            await event.edit("-  𖢞 @IQTHoN Failed!")
 
 
 @borg.on(admin_cmd(pattern="(ban|unban) ?(.*)"))
@@ -297,7 +297,7 @@ async def _(event):
     except (Exception) as exc:
         await event.edit(str(exc))
     else:
-        await event.edit(f"{input_cmd}ned Successfully!")
+        await event.edit(f"{input_cmd}ned -  𖢞Successfully! - @IQTHON")
 
 
 @register(incoming=True)
@@ -363,7 +363,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully! Now gib Party`")
+        await promt.edit("-  𖢞Promoted Successfully! - @IQTHON")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -417,7 +417,7 @@ async def pin(msg):
     to_pin = msg.reply_to_msg_id
 
     if not to_pin:
-        await msg.edit("`Reply to a message to pin it.`")
+        await msg.edit("-  𖢞Reply to a message to pin it - @IQTHON")
         return
 
     options = msg.pattern_match.group(1)
@@ -434,7 +434,7 @@ async def pin(msg):
         await msg.edit(NO_PERM)
         return
 
-    await msg.edit("`Pinned Successfully!`")
+    await msg.edit("-  𖢞Pinned Successfully! - @IQTHON")
 
     user = await get_user_from_id(msg.from_id, msg)
 
@@ -465,7 +465,7 @@ async def kick(usr):
         await usr.edit("`Couldn't fetch user.`")
         return
 
-    await usr.edit("`Kicking...`")
+    await usr.edit("-  𖢞Kicking...`")
 
     try:
         await usr.client.kick_participant(usr.chat_id, user.id)
@@ -547,7 +547,7 @@ async def get_user_from_event(event):
             user = int(user)
 
         if not user:
-            await event.edit("`Pass the user's username, id or reply!`")
+            await event.edit("-  𖢞Pass the user's username, id or reply!`")
             return
 
         if event.message.entities is not None:
