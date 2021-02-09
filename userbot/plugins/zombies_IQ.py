@@ -120,7 +120,7 @@ async def rm_deletedacc(show):
 
 
     if Config.G_BAN_LOGGER_GROUP is not None:
-        await show.client.send_message(
+        await show.client.send_mess kage(
             Config.G_BAN_LOGGER_GROUP, "#CLEANUP\n"
             f"Cleaned **{del_u}** deleted account(s) !!\
             \nCHAT: {show.chat.title}(`{show.chat_id}`)")
